@@ -7,6 +7,7 @@ import GameOver from "./scenes/GameOver";
 import GamePlay from "./scenes/GamePlay";
 import ScenaProva from "./scenes/ScenaProva";
 import { GameData } from "./GameData";
+import Intro2 from "./scenes/Intro2";
 
 window.addEventListener("load", () => {
 
@@ -27,7 +28,8 @@ window.addEventListener("load", () => {
       Hud,
       GamePlay,
       GameOver,
-      ScenaProva
+      ScenaProva,
+      Intro2
     ],
 
     physics: {

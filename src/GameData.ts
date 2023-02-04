@@ -22,6 +22,13 @@ export let GameData: any = {
       width: 33,
       height: 31,
       frames: 12
+    },
+    {
+      name: "tyler",
+      path: "assets/images/tyler.png",
+      width: 33,
+      height: 31,
+      frames: 1
     }
   ],
   images: [{
@@ -47,7 +54,17 @@ export let GameData: any = {
   { name: "bg7", path: "assets/images/bg/7.png" },
 ],
   atlas: [],
-  sounds: [],
-  audio: [],
+  sounds: [
+    {
+      name: "music0",
+      paths: ["assets/sounds/music0.ogg", "assets/sounds/music0.m4a"]
+    }
+  ],
+  audio: [
+    {
+      name: "sfx",
+      paths: ["assets/sounds/sfx.ogg", "assets/sounds/sfx.m4a"]
+    }
+  ],
   bitmapfont: [],
 };
