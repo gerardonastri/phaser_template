@@ -8,6 +8,8 @@ import GamePlay from "./scenes/GamePlay";
 import ScenaProva from "./scenes/ScenaProva";
 import { GameData } from "./GameData";
 import Intro2 from "./scenes/Intro2";
+import Intro3 from "./scenes/Intro3";
+import GamePlay2 from "./scenes/GamePlay2";
 
 window.addEventListener("load", () => {
 
@@ -27,16 +29,18 @@ window.addEventListener("load", () => {
       Intro,
       Hud,
       GamePlay,
+      GamePlay2,
       GameOver,
       ScenaProva,
-      Intro2
+      Intro2,
+      Intro3
     ],
 
     physics: {
       default: "arcade",
       arcade: {
         debug: GameData.globals.debug,
-
+        gravity: {y: 300}
       }
     },
     input: {
